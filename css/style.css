@@ -1,0 +1,40 @@
+/*base clases*/
+.responsive {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+.item-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* header */
+.header-container {
+    padding-top: 37px;
+}
+.icon-logo:before {
+    color: black;
+    font-size: 95.04px;
+    margin-left: 10px;
+}
+.ul-navigation {
+    display: flex;
+}
+.li-navigation {
+    margin-right: 53px;
+}
+.li-navigation:last-child {
+    margin-right: 10px;
+}
+.a-nav {
+    color: #707070;
+    font-size: 20px;
+    font-family: 'ArchyEDT-Bold';
+}
+.icon-search2:before {
+    font-size: 25.5px;
+    color: #707070;
+    margin-left: 10px;
+}
