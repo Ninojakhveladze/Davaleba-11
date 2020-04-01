@@ -1,6 +1,6 @@
 /*base clases*/
 .responsive {
-    max-width: 1170px;
+    max-width: 1640px;
     width: 100%;
     margin: 0 auto;
 }
@@ -12,21 +12,17 @@
 
 /* header */
 .header-container {
-    padding-top: 37px;
+    margin-top: 37px;
 }
 .icon-logo:before {
     color: black;
     font-size: 95.04px;
-    margin-left: 10px;
 }
 .ul-navigation {
     display: flex;
 }
 .li-navigation {
     margin-right: 53px;
-}
-.li-navigation:last-child {
-    margin-right: 10px;
 }
 .a-nav {
     color: #707070;
@@ -37,4 +33,32 @@
     font-size: 25.5px;
     color: #707070;
     margin-left: 10px;
+}
+
+/*background section*/
+.image-section {
+    margin-top: 42px;
+    background-image: url(../images/bg-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 613px;
+}
+.title-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 285px;
+}
+.box-title p {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'ArchyEDT-Bold';
+    color: #707070;
+}
+.box-title {
+    border: solid;
+    max-width: 674px;
+    height: 328px;
+    width: 100%;
+    background-color: white;
 }
