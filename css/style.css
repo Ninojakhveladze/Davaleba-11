@@ -1,4 +1,7 @@
 /*base clases*/
+body {
+    height: 2000px;
+}
 .responsive {
     max-width: 1640px;
     width: 100%;
@@ -17,6 +20,7 @@
 .icon-logo:before {
     color: black;
     font-size: 95.04px;
+    margin-left: 10px;
 }
 .ul-navigation {
     display: flex;
@@ -28,6 +32,9 @@
     color: #707070;
     font-size: 20px;
     font-family: 'ArchyEDT-Bold';
+}
+.li-navigation:last-child {
+    margin-right: 10px;
 }
 .icon-search2:before {
     font-size: 25.5px;
@@ -49,16 +56,78 @@
     justify-content: flex-end;
     padding-top: 285px;
 }
-.box-title p {
-    text-align: center;
+.title-box {
+    padding: 30px 25px;
     font-size: 40px;
     font-family: 'ArchyEDT-Bold';
     color: #707070;
 }
 .box-title {
-    border: solid;
+    border: solid #707070;
     max-width: 674px;
     height: 328px;
     width: 100%;
     background-color: white;
+}
+.description {
+    font-size: 24px;
+    color: #707070;
+    padding: 12px 25px;
+}
+.read {
+    padding-left: 14px;
+    font-size: 18px;
+    color: #707070;
+    font-weight: bold;
+}
+.text-icon {
+    display: flex;
+    padding: 30px 25px;
+}
+
+/*box container sections*/
+.popular-articles {
+    margin: 150px 10px
+}
+.popular-articles p {
+    font-size: 40px;
+    color: #707070;
+    font-family: 'ArchyEDT-Bold';
+}
+.small-box-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 67px 10px;
+}
+.article-image img {
+    width: 483px;
+}
+.small-box-title {
+    margin-top: 28px;
+}
+.small-box-title p {
+    font-size: 30px;
+    font-family: 'ArchyEDT-Bold';
+    color:#707070
+}
+.popular-article-desc {
+    margin-top: 27px;
+}
+.popular-article-desc p {
+    font-size: 18px;
+    color: #707070;
+}
+.small-boxes {
+    background-color: white;
+    width: 492px;
+    height: 571px;
+}
+.more {
+    margin: 25px 0 0 430px;
+}
+.more p {
+    font: 24px;
+    color: #707070;
+    font-family: 'ArchyEDT-Bold';
 }
