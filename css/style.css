@@ -1,7 +1,4 @@
 /*base clases*/
-body {
-    height: 2000px;
-}
 .responsive {
     max-width: 1640px;
     width: 100%;
@@ -124,11 +121,13 @@ body {
     height: 571px;
     box-shadow: 1px 1px 17px 1px #70707040;
 }
+.third-title {
+    margin-top: 17px;
+}
 .more {
     margin: 25px 0 0 430px;
 }
 .more p {
-    font: 24px;
     color: #707070;
     font-family: 'ArchyEDT-Bold';
 }
@@ -168,4 +167,7 @@ body {
     margin-left: 10px;
     color: white;
     font-size: 40px;
+}
+.burger-icon {
+    display: none;
 }
