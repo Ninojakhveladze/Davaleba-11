@@ -36,11 +36,6 @@ body {
 .li-navigation:last-child {
     margin-right: 10px;
 }
-.icon-search2:before {
-    font-size: 25.5px;
-    color: #707070;
-    margin-left: 10px;
-}
 
 /*background section*/
 .image-section {
@@ -63,7 +58,7 @@ body {
     color: #707070;
 }
 .box-title {
-    border: solid #707070;
+    box-shadow: 1px 1px 5px #70707040;
     max-width: 674px;
     height: 328px;
     width: 100%;
@@ -87,7 +82,7 @@ body {
 
 /*box container sections*/
 .popular-articles {
-    margin: 150px 10px
+    margin: 116px 10px;
 }
 .popular-articles p {
     font-size: 40px;
@@ -103,8 +98,12 @@ body {
 .article-image img {
     width: 483px;
 }
+.third-image {
+    height: 294px;
+}
 .small-box-title {
     margin-top: 28px;
+    margin-left: 8px;
 }
 .small-box-title p {
     font-size: 30px;
@@ -113,6 +112,7 @@ body {
 }
 .popular-article-desc {
     margin-top: 27px;
+    margin-left: 8px;
 }
 .popular-article-desc p {
     font-size: 18px;
@@ -120,8 +120,9 @@ body {
 }
 .small-boxes {
     background-color: white;
-    width: 492px;
+    width: 483px;
     height: 571px;
+    box-shadow: 1px 1px 17px 1px #70707040;
 }
 .more {
     margin: 25px 0 0 430px;
@@ -133,4 +134,38 @@ body {
 }
 .second-container {
     margin-top: 85px;
+}
+
+/*footer*/
+.footer {
+    background-color: #2E2E2E;
+}
+.footer-context {
+    height: 207px;
+    width: 100%;
+}
+.footer .icon-logo:before {
+    color: white;
+}
+.contact {
+    color: white;
+}
+.contact p {
+    font-size: 13px;
+}
+.size p {
+    font-size: 20px;
+}
+.size {
+    line-height: 32px;
+}
+.icon-facebook:before {
+    color: white;
+    font-size: 40px;
+}
+.icon-instagram:before {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+    font-size: 40px;
 }
