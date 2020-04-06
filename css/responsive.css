@@ -87,4 +87,10 @@
     .icon-logo {
         margin-left: 20px;
     }
+    .small-box-container {
+        margin: 10px 10px;
+    }
+    .second-container {
+        margin-top: 10px;
+    }
 }
