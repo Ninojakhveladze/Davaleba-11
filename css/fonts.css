@@ -69,14 +69,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-instagram:before {
-  content: "\e901";
-  color: #f8f8f8;
-}
-.icon-facebook:before {
-  content: "\e900";
-  color: #f8f8f8;
-}
 .icon-logo:before {
   content: "\e902";
 }

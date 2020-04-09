@@ -158,16 +158,27 @@
 .size {
     line-height: 32px;
 }
-.icon-facebook:before {
-    color: white;
-    font-size: 40px;
-}
-.icon-instagram:before {
-    margin-right: 10px;
-    margin-left: 10px;
-    color: white;
-    font-size: 40px;
-}
+
 .burger-icon {
     display: none;
+}
+.fb {
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: white;
+    width: 50px;
+    transition: .4s ease-in-out;
+}
+.fb:hover {
+    background-color: #4267B2;
+}
+.inst {
+    margin-right: 10px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    transition: .4s ease-in-out;
+}
+.inst:hover {
+    background-color: #833AB4;
 }
