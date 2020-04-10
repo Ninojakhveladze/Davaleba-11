@@ -1,18 +1,29 @@
-/*base clases*/
 .responsive {
     max-width: 1640px;
     width: 100%;
     margin: 0 auto;
 }
 .item-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .footer-item-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 /* header */
@@ -25,6 +36,8 @@
     margin-left: 10px;
 }
 .ul-navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .li-navigation {
@@ -49,8 +62,12 @@
     height: 613px;
 }
 .title-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
     padding-top: 285px;
 }
 .title-box {
@@ -60,7 +77,8 @@
     color: #707070;
 }
 .box-title {
-    box-shadow: 1px 1px 5px #70707040;
+    -webkit-box-shadow: 1px 1px 5px #70707040;
+            box-shadow: 1px 1px 5px #70707040;
     max-width: 674px;
     height: 328px;
     width: 100%;
@@ -78,6 +96,8 @@
     font-weight: bold;
 }
 .text-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 30px 25px;
 }
@@ -92,9 +112,14 @@
     font-family: 'ArchyEDT-Bold';
 }
 .small-box-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin: 67px 10px;
 }
 .article-image img {
@@ -124,7 +149,8 @@
     background-color: white;
     width: 483px;
     height: 571px;
-    box-shadow: 1px 1px 17px 1px #70707040;
+    -webkit-box-shadow: 1px 1px 17px 1px #70707040;
+            box-shadow: 1px 1px 17px 1px #70707040;
 }
 .third-title {
     margin-top: 17px;
@@ -174,6 +200,8 @@
     border-radius: 50%;
     background-color: white;
     width: 50px;
+    -webkit-transition: .4s ease-in-out;
+    -o-transition: .4s ease-in-out;
     transition: .4s ease-in-out;
 }
 .fb:hover {
@@ -184,8 +212,81 @@
     width: 50px;
     background-color: white;
     border-radius: 50%;
+    -webkit-transition: .4s ease-in-out;
+    -o-transition: .4s ease-in-out;
     transition: .4s ease-in-out;
 }
 .inst:hover {
     background-color: #833AB4;
+}
+/*second page*/
+/*map image*/
+.map {
+    margin-top: 42px;
+    background-image: url(../images/map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 613px;
+}
+/*form section*/
+.responsive-form {
+    max-width: 732px;
+    margin: 0 auto;
+    width: 100%;
+}
+.form {
+    margin-top: 58px;
+    margin-left: 90px;
+}
+.input-wrapper {
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+    height: 70px;
+    -webkit-box-shadow: 0 0 8px;
+            box-shadow: 0 0 8px;
+    padding-left: 30px;
+    color: #707070;
+}
+.namee {
+    margin-left: 30px;
+    font-size: 23px;
+    font-family: 'ArchyEDT-Bold';
+}
+.input-sb {
+    margin-top: 18px;
+}
+.input-sb:nth-child(1) {
+    margin-top: 0;
+}
+.textarea-wrapper {
+    width: 100%;
+    resize: none;
+    height: 112px;
+}
+.text-area {
+    border: none;
+    margin-top: 20px;
+    -webkit-box-shadow:  0 0 8px;
+            box-shadow:  0 0 8px;
+    padding-left: 30px;
+    color: #707070;
+}
+.text-wrap {
+    margin-top: 18px;
+}
+.btn {
+    background-color: #2E2E2E;
+    border: none;
+    margin-top: 15px;
+    width: 151px;
+    height: 51px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 17px;
+    margin-top: 41px;
+}
+.footer-two {
+    margin-top: 164px;
 }

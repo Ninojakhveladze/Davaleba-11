@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Flex</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+    <header class="header-container item-flex responsive">
+        <a href="index.html">
+            <i class="icon-logo"></i>
+        </a>
+        <nav class="navigation-responsive">
+            <ul class="ul-navigation">
+                <li class="li-navigation">
+                    <a class="a-nav" href="#">პროექტის შესახებ</a>
+                </li>
+                <li class="li-navigation">
+                    <a class="a-nav" href="#">მოთხოვნები</a>
+                </li>
+                <li class="li-navigation">
+                    <a class="a-nav" href="#">EXPLORE</a>
+                </li>
+                <li class="li-navigation">
+                    <a class="a-nav" href="#">შესვლა</a>
+                </li>
+                <li class="li-navigation">
+                    <a class="a-nav" href="#">
+                        <img src="images/search.png">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="burger-icon">
+            <img src="images/burger.png">
+        </div>
+    </header>
+    <div class="map responsive"></div>
+    <div class="form responsive-form">
+        <div class="form-wrapper">
+            <div class="input-sb">
+                <label for="name" class="namee">Name</label>
+                <input class="input-wrapper" type="text" name="myname" id="name
+                " placeholder="...Type your name" required>
+            </div>
+            <div class="input-sb">
+                <label for="name" class="namee">E-mail</label>
+                <input class="input-wrapper" type="text" name="myemail" id="email
+                " placeholder="...Type your E-mail" required>
+            </div>
+            <div class="input-sb">
+                <label for="name" class="namee">Subject</label>
+                <input class="input-wrapper" type="text" name="mysubject" id="subject
+                " placeholder="...Type the mail subject" required>
+            </div>
+            <div class="text-wrap">
+                <label class="namee">Message</label>
+                <textarea class="textarea-wrapper text-area" name="mmessage"></textarea>
+            </div>
+            <button class="btn" type="submit" value="Submit">SEND</button>
+        </div>
+    </div>
+    <section class="footer footer-two">
+        <div class="footer-context footer-item-flex responsive">
+            <a href="#">
+                <i class="icon-logo footer-none"></i>
+            </a>
+            <div class="contact">
+                <div class="size"><p>კონტაქტი</p></div>
+                <p>+995 0322 38 08 02</p>
+                <p>info@lucapolare.com</p>
+            </div>
+            <div class="contact">
+                <div class="size"><p>მისამართი</p></div>
+                <p>მერაბ ალექსიძის ქუჩა 10. თბილისი</p>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/fb.png" class="fb"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="images/inst.png" class="inst"></a>
+            </div>
+        </div>
+    </section>
