@@ -147,10 +147,16 @@
     .responsive-form {
         width: 560px;
     }
+    .map {
+        height: 500px;
+    }
 }
 @media (max-width: 680px) {
     .responsive-form {
         width: 450px;
+    }
+    .map {
+        height: 300px;
     }
 }
 @media (max-width: 560px) {
